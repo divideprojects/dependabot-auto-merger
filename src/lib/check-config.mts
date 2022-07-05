@@ -1,4 +1,4 @@
-const log = require('./log');
+import * as log from './log.mjs';
 
 // config file for the app
 const configFilename =
@@ -42,6 +42,6 @@ async function readConfig(context) {
   return configData.auto_merge_settings;
 }
 
-module.exports = {
+export {
   readConfig,
 };

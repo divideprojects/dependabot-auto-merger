@@ -9,7 +9,4 @@ function error(context, message) {
   throw new Error(message);
 }
 
-module.exports = {
-  info,
-  error,
-};
+export { info, error };
