@@ -14,9 +14,10 @@
     "dependabot-auto-merger",
     "dependabot-merger"
   ],
+  "type": "module",
   "scripts": {
     "dev": "nodemon --exec \"npm start\"",
-    "start": "probot run ./src/app.js",
+    "start": "probot run ./src/app.mts",
     "test": "jest"
   },
   "dependencies": {
