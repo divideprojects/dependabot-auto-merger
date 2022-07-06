@@ -1,4 +1,4 @@
-import * as log from './log.mjs';
+import * as log from './log';
 
 // config file for the app
 const configFilename =

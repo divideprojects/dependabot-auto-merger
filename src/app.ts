@@ -1,8 +1,8 @@
-import { readConfig } from './lib/check-config.mjs';
-import { getBotName, mergePullRequest } from './lib/api.mjs';
-import { dependabotAuthor } from './lib/getDependabotDetails.mjs';
-import { parsePrTitle, matchBumpLevel } from './lib/util.mjs';
-import * as log from './lib/log.mjs'
+import { readConfig } from './lib/check-config';
+import { getBotName, mergePullRequest } from './lib/api';
+import { dependabotAuthor } from './lib/getDependabotDetails';
+import { parsePrTitle, matchBumpLevel } from './lib/util';
+import * as log from './lib/log'
 
 /**
  * This is the main entrypoint to your Probot app

@@ -1,6 +1,6 @@
-import { readConfig } from './check-config.mjs';
-import { parsePrTitle } from './util.mjs';
-import * as log from './log.mjs'
+import { readConfig } from './check-config';
+import { parsePrTitle } from './util';
+import * as log from './log'
 
 // function used to comment on a issue
 async function comment(octokit, repo, { number }, body) {

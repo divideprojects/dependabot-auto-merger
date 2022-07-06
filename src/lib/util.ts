@@ -1,6 +1,6 @@
 import {semverCoerce} from 'semver/functions/coerce';
 import {semverValid} from 'semver/functions/valid';
-import * as log from './log.mjs';
+import * as log from './log';
 
 /**
  * Checks if a version is a valid semver version.
