@@ -17,7 +17,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon --exec \"npm start\"",
-    "start": "probot run ./src/app.mts",
+    "start": "probot run ./src/app.ts",
     "test": "jest"
   },
   "dependencies": {
