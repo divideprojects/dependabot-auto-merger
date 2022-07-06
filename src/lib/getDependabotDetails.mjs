@@ -1,5 +1,3 @@
 const dependabotAuthor = 'dependabot[bot]';
 
-module.exports = {
-  dependabotAuthor,
-};
+export { dependabotAuthor };

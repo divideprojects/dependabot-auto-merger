@@ -1,6 +1,6 @@
-const { readConfig } = require('./check-config');
-const { parsePrTitle } = require('./util');
-const log = require('./log');
+import { readConfig } from './check-config.mjs';
+import { parsePrTitle } from './util.mjs';
+import log from './log.mjs';
 
 // function used to comment on a issue
 async function comment(octokit, repo, { number }, body) {
@@ -51,8 +51,4 @@ async function mergePullRequest(context, { owner, repo, pullRequest }) {
   }
 }
 
-module.exports = {
-  comment,
-  getBotName,
-  mergePullRequest,
-};
+export { comment, getBotName, mergePullRequest };

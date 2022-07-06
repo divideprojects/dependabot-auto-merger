@@ -1,8 +1,8 @@
-const { readConfig } = require('./lib/check-config');
-const { getBotName, mergePullRequest } = require('./lib/api');
-const { dependabotAuthor } = require('./lib/getDependabotDetails');
-const { parsePrTitle, matchBumpLevel } = require('./lib/util');
-const log = require('./lib/log');
+import { readConfig } from './lib/check-config.mjs';
+import { getBotName, mergePullRequest } from './lib/api.mjs';
+import { dependabotAuthor } from './lib/getDependabotDetails.mjs';
+import { parsePrTitle, matchBumpLevel } from './lib/util.mjs';
+import log from './lib/log.mjs';
 
 /**
  * This is the main entrypoint to your Probot app

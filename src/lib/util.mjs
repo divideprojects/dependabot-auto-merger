@@ -1,6 +1,6 @@
-const semverCoerce = require('semver/functions/coerce');
-const semverValid = require('semver/functions/valid');
-const log = require('./log');
+import semverCoerce from 'semver/functions/coerce';
+import semverValid from 'semver/functions/valid';
+import log from './log.mjs';
 
 /**
  * Checks if a version is a valid semver version.
@@ -95,4 +95,4 @@ function matchBumpLevel(bumpLevel, config) {
   }
 }
 
-module.exports = { parsePrTitle, matchBumpLevel };
+export { parsePrTitle, matchBumpLevel };

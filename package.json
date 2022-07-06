@@ -6,6 +6,7 @@
   "author": "Divide Projects",
   "license": "ISC",
   "homepage": "https://github.com/",
+  "type": "module",
   "keywords": [
     "probot",
     "github",
